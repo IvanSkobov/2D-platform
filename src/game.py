@@ -4,7 +4,7 @@ from player import Player
 
 
 class Game:
-    def __init__(self):  # Теперь конструктор не принимает параметров
+    def __init__(self, screen):  # Теперь конструктор не принимает параметров
         pygame.init()
         self.screen = pygame.display.set_mode((800, 600))
         self.clock = pygame.time.Clock()
